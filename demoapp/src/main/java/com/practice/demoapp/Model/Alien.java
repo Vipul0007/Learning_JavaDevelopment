@@ -1,5 +1,10 @@
+package com.practice.demoapp.Model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 @Entity
-class Alien{
+public class Alien{
     @Id
     private int aid;
     private String aname;
